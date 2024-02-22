@@ -1,0 +1,10 @@
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+# Example usage:
+n = 5
+factorial_n = factorial(n)
+print("Factorial of", n, "is", factorial_n)
